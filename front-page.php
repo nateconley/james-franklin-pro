@@ -2,18 +2,17 @@
 
 <?php the_post(); ?>
 
-<div class="hero-background">
+
 	<img class="hero-image" src="
 	<?php 
 		$hero_image = get_field('hero_image');
 		echo $hero_image['url'];
 	?>
 	" />
-</div>
 
 <div class="container">
 
-	<h2><?php echo get_bloginfo( 'description' ); ?></h2>
+
 
 	
 

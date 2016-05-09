@@ -1,12 +1,14 @@
 // Colors
 $white: #FFFFFF
 $black: #000000
+$light-grey: #C9C9C9
 $dark-grey: #5E5E5E
-$blue: #1D97BF
+$blue: #00A4DB
 
 // Breaks
 $break-small: 400px
 $break-medium: 750px
+$break-large: 1200px
 $max-width: 1200px
 
 // fonts
@@ -26,6 +28,10 @@ $max-width: 1200px
 	box-sizing: border-box
 	@include lato
 
+body
+	background: $light-grey
+	min-height: 100vh
+
 h1,
 h2,
 h3,
@@ -39,6 +45,7 @@ a
 
 // Helpers
 .container
+	padding: 0 2rem
 	max-width: $max-width
 	margin: auto
 
