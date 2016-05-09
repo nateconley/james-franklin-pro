@@ -1,17 +1,44 @@
 // Colors
 $white: #FFFFFF
 $black: #000000
+$dark-grey: #5E5E5E
+$blue: #1D97BF
 
 // Breaks
 $break-small: 400px
 $break-medium: 750px
+$max-width: 1200px
+
+// fonts
+@mixin roboto
+	font-family: 'Roboto Slab', serif
+@mixin lato
+	font-family: 'Lato', sans-serif
 
 // Imports
 @import 'nav'
+@import 'footer'
+@import 'front-page'
 
 
+// General Styles
+*
+	box-sizing: border-box
+	@include lato
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+	@include roboto
 
-// Remove ME
-body
-	height: 200vh
+a
+	color: $blue
+
+// Helpers
+.container
+	max-width: $max-width
+	margin: auto
+
