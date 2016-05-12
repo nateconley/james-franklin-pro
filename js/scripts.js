@@ -11,9 +11,10 @@ jQuery(document).ready(function($) {
 
 	$('.main-nav-button').click(function(){
 		$('.main-nav ul').toggleClass('show');
+		$('.main-nav .main-nav-button').toggleClass('out');
 	});
 
-	
+
 
 
 

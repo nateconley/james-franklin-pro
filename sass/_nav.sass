@@ -5,6 +5,7 @@ nav.main-nav
 	width: 100%
 	position: absolute
 	button.main-nav-button
+		cursor: pointer
 		position: relative
 		z-index: 99
 		margin: auto
@@ -14,6 +15,10 @@ nav.main-nav
 		display: block
 		border-bottom-right-radius: 0.5rem
 		border-bottom-left-radius: 0.5rem
+		transform: translateY(-2rem)
+		transition: ease-in-out .5s
+		&:hover
+			transform: translateY(0)
 		@include transparent-background
 		@media screen and (min-width: $break-medium)
 			display: none
@@ -24,7 +29,9 @@ nav.main-nav
 		svg
 			fill: $white
 			margin-top: 0.5rem
+
 	ul
+		z-index: 9
 		transform: translateY(-100%)
 		list-style: none
 		margin: 0
@@ -62,3 +69,7 @@ nav.main-nav
 nav.main-nav
 	ul.show
 		transform: translateY(0%)
+	.main-nav-button.out
+		transform: translateY(0)
+		svg
+			transform: rotate(180deg)
