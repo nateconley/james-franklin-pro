@@ -26,7 +26,8 @@ nav.main-nav {
       color: #FFFFFF; }
     nav.main-nav button.main-nav-button svg {
       fill: #FFFFFF;
-      margin-top: 0.5rem; }
+      margin-top: 0.5rem;
+      max-width: 50px; }
   nav.main-nav ul {
     z-index: 9;
     transform: translateY(-100%);
@@ -74,11 +75,12 @@ nav.main-nav .main-nav-button.out {
     transform: rotate(180deg); }
 
 footer {
-  background: #5E5E5E;
-  color: #FFFFFF;
-  position: absolute;
-  width: 100%; }
+  background: #00A4DB;
+  position: relative; }
+  footer a,
   footer p {
+    color: #FFFFFF;
+    text-align: center;
     margin: 0; }
 
 .hero-image {
@@ -96,7 +98,9 @@ footer {
 
 body {
   background: #C9C9C9;
-  min-height: 100vh; }
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column; }
 
 h1,
 h2,
