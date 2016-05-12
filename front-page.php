@@ -12,14 +12,9 @@
 
 <div class="container">
 
-
-
-	
-
 	<div class="front-page-iframe iframe-wrapper">
 		<?php echo get_field('youtube_link'); ?>
 	</div>
-
 
 </div>
 
