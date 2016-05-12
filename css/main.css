@@ -56,13 +56,15 @@ nav.main-nav {
         width: 100%;
         background: none; } }
   nav.main-nav button.out {
-    background: #00A4DB; }
+    background: #00A4DB;
+    position: fixed; }
   nav.main-nav ul#menu-main.show {
     transform: translateY(0%); }
 
 footer {
   background: #00A4DB;
-  position: relative; }
+  position: relative;
+  padding: 0.5rem 0; }
   footer a,
   footer p {
     color: #FFFFFF;
@@ -75,37 +77,54 @@ footer {
   height: auto;
   box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5); }
 
-.front-page-iframe {
-  padding: 5rem; }
+.front-page-iframe p {
+  text-align: center; }
+
+@media screen and (max-width: 750px) {
+  .front-page-iframe {
+    padding: 3rem; } }
+
+@media screen and (max-width: 400px) {
+  .front-page-iframe {
+    padding: 1rem; } }
+
+.front-page-iframe iframe {
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); }
+
+.front-page-info {
+  text-align: center;
+  padding: 2rem;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.25); }
+  .front-page-info h1 {
+    font-size: 3rem; }
+  .front-page-info h2 {
+    font-size: 2rem; }
   @media screen and (max-width: 750px) {
-    .front-page-iframe {
-      padding: 3rem; } }
-  @media screen and (max-width: 400px) {
-    .front-page-iframe {
-      padding: 1rem; } }
+    .front-page-info h1 {
+      font-size: 2rem; }
+    .front-page-info h2 {
+      font-size: 1.25rem; } }
 
 .page-info {
-  background: #00A4DB;
-  margin-top: 3rem; }
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(0deg, #00A4DB, #5E5E5E);
+  height: 20rem;
+  color: #FFFFFF; }
   .page-info .inner-page-info {
     max-width: 1200px;
+    margin: auto;
     padding: 0 1rem;
-    margin: auto; }
-  .page-info h2 {
-    margin: 0;
-    padding: 3rem 0;
-    text-align: center;
-    font-size: 3rem; }
-  @media screen and (max-width: 750px) {
-    .page-info {
-      margin-top: 0; } }
+    padding-top: 6rem; }
+    .page-info .inner-page-info h1 {
+      text-align: center; }
 
 * {
   box-sizing: border-box;
   font-family: 'Lato', sans-serif; }
 
 body {
-  background: #C9C9C9;
+  background: #FFFFFF;
   min-height: 100vh;
   display: flex;
   flex-direction: column; }
@@ -120,6 +139,11 @@ h6 {
 
 a {
   color: #00A4DB; }
+
+hr {
+  height: 0.5rem;
+  background: #00A4DB;
+  border: none; }
 
 .container {
   max-width: 1200px;
