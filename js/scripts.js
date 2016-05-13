@@ -8,8 +8,7 @@ jQuery(document).ready(function($) {
 		$('.main-nav .main-nav-button').toggleClass('out');
 	});
 
-
-// BEGIN RESPONSIVE VIDEOS
+	// BEGIN RESPONSIVE VIDEOS
 	// Find all YouTube videos
 	var $allVideos = $("iframe"),
 
@@ -45,15 +44,14 @@ jQuery(document).ready(function($) {
 
 	// Kick off one resize to fix all videos on page load
 	}).resize();
-// END RESPONSIVE VIDEOS
+	// END RESPONSIVE VIDEOS
 
-// Append Pretty things to src of videos
-$allVideos.each(function() {
-	var videoSrc = $(this).attr('src');
-	$(this).attr('src', function() {
-		return videoSrc + "?showinfo=0&autohide=1";
+	// Make videos pretty!
+	$allVideos.each(function() {
+		var videoSrc = $(this).attr('src');
+		$(this).attr('src', function() {
+			return videoSrc + "?showinfo=0&autohide=1";
+		});
 	});
-});
-
 
 });

@@ -4,8 +4,17 @@
 	background: linear-gradient(10deg, $blue, $dark-grey)
 	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5)
 	padding: 0.5rem
+	width: 40%
+	float: left
+	margin: 1rem 5%
+	@media screen and (max-width: $break-medium)
+		width: 50%
+		float: none
+		margin: 2rem auto
+	@media screen and (max-width: $break-small)
+		width: 80%
 	.pricing-header
-		padding: 1rem 0
+		padding: 2rem 0
 		color: $white
 		border-bottom: 1px dashed $white
 		h3
