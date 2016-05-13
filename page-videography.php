@@ -12,7 +12,8 @@
 
 <div class="container">
 
-
+	<h2 class="section-header">Pricing:</h2>
+	 
 	<div class="pricing-table">
 		<div class="pricing-header">
 			<h3 class="title">PHOTOGRAPHY</h3>

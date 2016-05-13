@@ -134,8 +134,9 @@ footer {
 .pricing-table {
   text-align: center;
   background: #0082AD;
-  background: linear-gradient(0deg, #0082AD, #5E5E5E);
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); }
+  background: linear-gradient(10deg, #0082AD, #5E5E5E);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  padding: 0.5rem; }
   .pricing-table .pricing-header {
     padding: 1rem 0;
     color: #FFFFFF;
@@ -152,6 +153,11 @@ footer {
     .pricing-table ul li {
       color: #FFFFFF;
       padding: 0.5rem 0; }
+
+.error-message {
+  text-align: center; }
+  .error-message h1 {
+    font-size: 5rem; }
 
 * {
   box-sizing: border-box;
@@ -183,5 +189,9 @@ hr {
   max-width: 1200px;
   padding: 1rem;
   margin: auto; }
+
+.section-header {
+  text-align: center;
+  font-size: 2rem; }
 
 /*# sourceMappingURL=main.css.map */
