@@ -126,6 +126,10 @@ footer {
       .page-info .inner-page-info p {
         width: 100%; } }
 
+.pricing-container {
+  display: flex;
+  justify-content: space-around; }
+
 .pricing-table {
   text-align: center;
   background: #0082AD;
@@ -133,6 +137,7 @@ footer {
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
   padding: 0.5rem;
   width: 40%;
+  height: auto;
   float: left;
   margin: 1rem 5%; }
   @media screen and (max-width: 750px) {
@@ -171,6 +176,16 @@ footer {
 
 .iframe-wrapper iframe {
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); }
+
+.image-gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+  .image-gallery img {
+    width: 20rem;
+    height: auto;
+    margin: 1rem;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25); }
 
 * {
   box-sizing: border-box;

@@ -19,34 +19,34 @@
 
 
 
-
-	<div class="pricing-table">
-		<div class="pricing-header">
-			<h3 class="title">VIDEOGRAPHY</h3>
-			<h3 class="price">$75 per hour</h3>
+	<div class="pricing-container">
+		<div class="pricing-table">
+			<div class="pricing-header">
+				<h3 class="title">VIDEOGRAPHY</h3>
+				<h3 class="price">$75 per hour</h3>
+			</div>
+			<ul>
+				<li>$125 per hour editing</li>
+			</ul>
 		</div>
-		<ul>
-			<li>$125 per hour editing</li>
-		</ul>
-	</div>
 
 
 
-	<div class="pricing-table">
-		<div class="pricing-header">
-			<h3 class="title">WEDDINGS</h3>
-			<h3 class="price">$900</h3>
+		<div class="pricing-table">
+			<div class="pricing-header">
+				<h3 class="title">WEDDINGS</h3>
+				<h3 class="price">$900</h3>
+			</div>
+			<ul>
+				<li>Two Cameras</li>
+				<li>Eight Hours</li>
+				<li>DVD Included</li>
+				<li>Additional Camera Man - $75 per hour</li>
+				<li>$100 Deposit to Save the Date</li>
+			</ul>
 		</div>
-		<ul>
-			<li>Two Cameras</li>
-			<li>Eight Hours</li>
-			<li>DVD Included</li>
-			<li>Additional Camera Man - $75 per hour</li>
-			<li>$100 Deposit to Save the Date</li>
-		</ul>
+
 	</div>
-
-
 
 
 	<h2 class="section-header">Example Work:</h2>
@@ -74,5 +74,7 @@
 	?>
 
 </div>
+
+<?php wp_reset_postdata(); ?>
 
 <?php get_footer(); ?>
