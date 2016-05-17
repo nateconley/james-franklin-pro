@@ -129,6 +129,9 @@ footer {
 .pricing-container {
   display: flex;
   justify-content: space-around; }
+  @media screen and (max-width: 750px) {
+    .pricing-container {
+      flex-wrap: wrap; } }
 
 .pricing-table {
   text-align: center;
@@ -142,7 +145,7 @@ footer {
   margin: 1rem 5%; }
   @media screen and (max-width: 750px) {
     .pricing-table {
-      width: 50%;
+      width: 80%;
       float: none;
       margin: 2rem auto; } }
   @media screen and (max-width: 400px) {

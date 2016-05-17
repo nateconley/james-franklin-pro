@@ -23,6 +23,7 @@ gulp.task('sass', function(){
 
 gulp.task('watch', ['sass'], function(){
 	gulp.watch('sass/*.sass', ['sass']);
+	gulp.watch('./*.php').on('change', browserSync.reload);
 });
 
 gulp.task('default', ['browser-sync', 'watch']);
