@@ -54,4 +54,13 @@ jQuery(document).ready(function($) {
 		});
 	});
 
+	// Contact modal toggle
+	$('.call-to-action').click(function(){
+		$('.contact-modal').addClass('open');
+	});
+
+	$('.close-contact').click(function(){
+		$('.contact-modal').removeClass('open');
+	});
+
 });

@@ -1,0 +1,45 @@
+.contact-modal
+	height: 0
+	width: 0
+	position: fixed
+	top: 0
+	bottom: 0
+	background: rgba(0,0,0,0.25)
+	overflow: hidden
+	.contact-info
+		width: 75%
+		height: auto
+		background: $white
+		margin: auto
+		border: 4px solid $dark-grey
+		border-radius: 4px
+		overflow: scroll
+		margin-top: 10%
+		z-index: 999
+		ul
+			list-style: none
+			padding: 0
+			li
+				text-align: center
+				font-size: 2rem
+				a
+					text-decoration: none
+					color: $dark-grey
+				a,
+				p
+					display: inline-block
+				i
+					margin-right: 0.75rem
+				.close-contact
+					text-decoration: underline
+					color: $blue
+				&:first-child a p
+					margin-top: 0
+		@media screen and (max-width: $break-medium)
+			width: 85%
+			margin-top: 5rem
+			ul li
+				font-size: 1.25rem
+.contact-modal.open
+	width: 100%
+	height: 100%

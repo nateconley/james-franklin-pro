@@ -11,6 +11,34 @@
 
 <?php wp_reset_postdata(); ?>
 
+	<div class="call-to-action">
+		<h4 class="btn">CONTACT ME</h4>
+	</div>
+
+<div class="contact-modal">
+	<div class="contact-info">
+		<ul>
+			<li>
+				<a href="mailto:jamesfranklinpro@gmail.com">
+					<i class="fa fa-envelope"></i>
+					<p>jamesfranklinpro@gmail.com</p>
+				</a>
+			</li>
+			<li>
+				<a href="tel:5594335779">
+					<i class="fa fa-phone"></i>
+					<p>559-433-5779</p>
+				</a>
+			</li>
+			<li>
+				<a href="" class="close-contact">close</a>
+			</li>
+		</ul>
+	</div>
+</div>
+
+
+
 <div class="container">
 
 	<h2 class="section-header">Pricing:</h2>
