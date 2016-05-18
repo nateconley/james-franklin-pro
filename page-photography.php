@@ -60,7 +60,7 @@
 	</div>
 
 	<h2 class="section-header">Example Work:</h2>
-	<div class="image-gallery">
+	<div class="fotorama" data-nav="thumbs">
 		<?php
 			$args = [
 				'post_type' => 'photography_image'
@@ -71,9 +71,7 @@
 			if ( $the_query->have_posts() ) {
 				while ( $the_query->have_posts() ) {
 					$the_query->the_post();
-					echo '<a href="' . get_field( 'photo' ) . '" data-lightbox="photography" >';
-					echo '<img src=' . get_field( 'photo' ) . ' />';
-					echo '</a>';
+					echo '<img src="' . get_field( 'photo' ) . '">';
 				}
 			}
 		?>

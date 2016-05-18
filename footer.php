@@ -5,13 +5,13 @@
 				<p>Website by <a href="http://nateconley.com" target="_blank">Nate Conley</a></p>
 			</div>
 			<div class="social-links">
-				<a href="">
+				<a href="https://www.instagram.com/jamesfranklinpro/">
 					<i class="fa fa-instagram"></i>
 				</a>
-				<a href="">
+				<a href="https://twitter.com/JFRANKLINPRO">
 					<i class="fa fa-twitter"></i>
 				</a>
-				<a href="">
+				<a href="snapchat://add/kingjamestc">
 					<i class="fa fa-snapchat"></i>
 				</a>
 			</div>
