@@ -221,53 +221,59 @@ footer {
     margin: 1rem;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25); }
 
-.contact-modal {
-  height: 0;
-  width: 0;
+.contact-overlay {
+  display: none;
   position: fixed;
+  height: 100%;
+  width: 100%;
   top: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.25);
-  overflow: hidden; }
-  .contact-modal .contact-info {
-    width: 75%;
-    height: auto;
-    background: #FFFFFF;
-    margin: auto;
-    border: 4px solid #5E5E5E;
-    border-radius: 4px;
-    overflow: scroll;
-    margin-top: 10%;
-    z-index: 999; }
-    .contact-modal .contact-info ul {
-      list-style: none;
-      padding: 0; }
-      .contact-modal .contact-info ul li {
-        text-align: center;
-        font-size: 2rem; }
-        .contact-modal .contact-info ul li a {
-          text-decoration: none;
-          color: #5E5E5E; }
-        .contact-modal .contact-info ul li a,
-        .contact-modal .contact-info ul li p {
-          display: inline-block; }
-        .contact-modal .contact-info ul li i {
-          margin-right: 0.75rem; }
-        .contact-modal .contact-info ul li .close-contact {
-          text-decoration: underline;
-          color: #0082AD; }
-        .contact-modal .contact-info ul li:first-child a p {
-          margin-top: 0; }
-    @media screen and (max-width: 750px) {
-      .contact-modal .contact-info {
-        width: 85%;
-        margin-top: 5rem; }
-        .contact-modal .contact-info ul li {
-          font-size: 1.25rem; } }
+  background: rgba(0, 0, 0, 0.25); }
+
+.contact-modal {
+  display: none;
+  top: 1rem;
+  position: fixed;
+  width: 75%;
+  height: auto;
+  background: #FFFFFF;
+  margin-left: 12.5%;
+  border: 4px solid #5E5E5E;
+  border-radius: 4px;
+  overflow: scroll;
+  margin-top: 10%;
+  z-index: 999; }
+  .contact-modal ul {
+    list-style: none;
+    padding: 0; }
+    .contact-modal ul li {
+      text-align: center;
+      font-size: 2rem; }
+      .contact-modal ul li a {
+        text-decoration: none;
+        color: #5E5E5E; }
+      .contact-modal ul li a,
+      .contact-modal ul li p {
+        display: inline-block; }
+      .contact-modal ul li i {
+        margin-right: 0.75rem; }
+      .contact-modal ul li .close-contact {
+        text-decoration: underline;
+        color: #0082AD; }
+      .contact-modal ul li:first-child a p {
+        margin-top: 0; }
+  @media screen and (max-width: 750px) {
+    .contact-modal {
+      width: 85%;
+      margin-left: 7.5%; }
+      .contact-modal ul li {
+        font-size: 1.25rem; } }
+
+.contact-overlay.open {
+  display: block; }
 
 .contact-modal.open {
-  width: 100%;
-  height: 100%; }
+  display: block; }
 
 .call-to-action {
   width: 100%;

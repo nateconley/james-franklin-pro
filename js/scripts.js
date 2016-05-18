@@ -56,10 +56,12 @@ jQuery(document).ready(function($) {
 
 	// Contact modal toggle
 	$('.call-to-action').click(function(){
-		$('.contact-modal').addClass('open');
+		$('.contact-overlay').addClass('open');
+		$('.contact-modal').toggleClass('open');
 	});
 
 	$('.close-contact').click(function(){
+		$('.contact-overlay').removeClass('open');
 		$('.contact-modal').removeClass('open');
 	});
 
