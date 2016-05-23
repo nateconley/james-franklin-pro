@@ -33,10 +33,7 @@
 
 <div class="container">
 
-	<div class="front-page-info">
-		<h1><?php echo bloginfo('title'); ?></h1>
-		<h2><?php echo bloginfo('description'); ?></h2>
-	</div>
+	<p><?php the_content(); ?></p>
 
 	<div class="call-to-action">
 		<h4 class="btn">CONTACT ME</h4>

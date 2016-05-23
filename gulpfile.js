@@ -8,6 +8,7 @@ const browserSync = require('browser-sync');
 gulp.task('browser-sync', function(){
 	browserSync.init({
 		open: false,
+		online: false,
 		proxy: 'localhost:8888'
 	});
 });
