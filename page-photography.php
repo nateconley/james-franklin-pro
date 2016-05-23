@@ -60,7 +60,8 @@
 	</div>
 
 	<h2 class="section-header">Example Work:</h2>
-	<div class="fotorama" data-nav="thumbs">
+	<div class="fotorama" data-nav="thumbs"
+	data-width="100%" data-maxheight="100%">
 		<?php
 			$args = [
 				'post_type' => 'photography_image'

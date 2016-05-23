@@ -38,6 +38,31 @@
 
 <div class="container">
 
+	<h2 class="section-header">Headshots:</h2>
+
+
+	<div class="fotorama" data-nav="thumbs"
+	data-width="100%" data-maxheight="100%">
+		<?php
+			$args = [
+				'post_type' => 'headshot'
+			];
+
+			$the_query = new WP_Query( $args );
+
+			if ( $the_query->have_posts() ) {
+				while ( $the_query->have_posts() ) {
+					$the_query->the_post();
+					echo '<img src="' . get_field( 'headshot_image' ) . '">';
+				}
+			}
+		?>
+	</div>
+
+
+	<?php wp_reset_postdata(); ?>
+
+
 
 	<h2 class="section-header">Example Work:</h2>
 
@@ -63,7 +88,7 @@
 
 	?>
 
-
+	<?php wp_reset_postdata(); ?>
 
 </div>
 
