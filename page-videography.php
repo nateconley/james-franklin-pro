@@ -57,14 +57,31 @@
 		<div class="pricing-table">
 			<div class="pricing-header">
 				<h3 class="title">WEDDINGS</h3>
-				<h3 class="price">$900</h3>
+				<h3 class="price">$1000</h3>
 			</div>
 			<ul>
 				<li>Two Cameras</li>
-				<li>Eight Hours</li>
+				<li>Full ceremony and reception</li>
+				<li>Highlight Video</li>
 				<li>DVD Included</li>
 				<li>Additional Camera Man - $75 per hour</li>
+				<li>$200 Deposit to Save the Date</li>
+				<li>Request a Photographer for Professional Pictures!</li>
+			</ul>
+		</div>
+
+		<div class="pricing-table">
+			<div class="pricing-header">
+				<h3 class="title">EVENT HIGHLIGHT VIDEO</h3>
+				<h3 class="price">$600</h3>
+			</div>
+			<ul>
+				<li>Wedding, Quinceañera, etc.</li>
+				<li>One Camera</li>
+				<li>Eight Hours</li>
+				<li>USB Drive</li>
 				<li>$100 Deposit to Save the Date</li>
+				<li>Request a Photographer for Professional Pictures!</li>
 			</ul>
 		</div>
 	</div>

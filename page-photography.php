@@ -46,15 +46,16 @@
 		<div class="pricing-table">
 			<div class="pricing-header">
 				<h3 class="title">PHOTOGRAPHY</h3>
-				<h3 class="price">$125</h3>
+				<h3 class="price">$100</h3>
 			</div>
 			<ul>
 				<li>One Camera</li>
 				<li>One Location</li>
 				<li>Two Hours</li>
 				<li>Ten Edits</li>
-				<li>Additional Locations - $30 per 100 miles</li>
+				<li>Additional Locations - $25</li>
 				<li>Additional Hours - $20 per hour</li>
+				<li>Friends, Family, and Reference Discount - $25</li>
 			</ul>
 		</div>
 	</div>
