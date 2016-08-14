@@ -44,44 +44,23 @@
 
 	<h2 class="section-header">Pricing:</h2>
 	<div class="pricing-container">
-		<div class="pricing-table">
-			<div class="pricing-header">
-				<h3 class="title">VIDEOGRAPHY</h3>
-				<h3 class="price">$75 per hour</h3>
-			</div>
-			<ul>
-				<li>$125 per hour editing</li>
-			</ul>
-		</div>
 
 		<div class="pricing-table">
 			<div class="pricing-header">
-				<h3 class="title">WEDDINGS</h3>
-				<h3 class="price">$1000</h3>
-			</div>
-			<ul>
-				<li>Two Cameras</li>
-				<li>Full ceremony and reception</li>
-				<li>Highlight Video</li>
-				<li>DVD Included</li>
-				<li>Additional Camera Man - $75 per hour</li>
-				<li>$200 Deposit to Save the Date</li>
-				<li>Request a Photographer for Professional Pictures!</li>
-			</ul>
-		</div>
-
-		<div class="pricing-table">
-			<div class="pricing-header">
-				<h3 class="title">EVENT HIGHLIGHT VIDEO</h3>
-				<h3 class="price">$600</h3>
+				<h3 class="title">EVENT HIGHLIGHT VIDEO*</h3>
+				<h3 class="price">$650</h3>
 			</div>
 			<ul>
 				<li>Wedding, Quinceañera, etc.</li>
 				<li>One Camera</li>
 				<li>Eight Hours</li>
+				<li>4-10 minute highlight video depending on event and song selection</li>
+				<li>$75/hour after initial eight</li>
 				<li>USB Drive</li>
 				<li>$100 Deposit to Save the Date</li>
 				<li>Request a Photographer for Professional Pictures!</li>
+				<li>Friends and Family Reference Discount - $50 off or one extra hour free</li>
+				<li>*not a full coverage video</li>
 			</ul>
 		</div>
 	</div>
